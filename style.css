@@ -98,3 +98,54 @@ img{
     transform: rotate(250deg);
     background-color: blue;
 }
+
+.numeric{
+    background-color: white;
+    width: 350px;
+    height: 40px;
+    border: 5px solid peachpuff;
+    box-shadow: 1px 1px 4px rgba(0,0,0,.7);
+}
+
+.clock .numeric{
+    margin-top: 50px;
+}
+
+.numeric div{
+    position: absolute;
+    font-size: 27px;
+    font-weight: bold;
+    color: grey;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.7);
+}
+
+.h{
+    right: 58%;
+    top: 80%;
+    transform: translateX(-10%);
+
+}
+
+.m{
+    right: 51%;
+    top: 80%;
+    transform: translateX(-50%);
+}
+
+.s{
+    right: 44%;
+    top: 80%;
+    transform: translateX(-50%);
+}
+
+.AMPM{
+    right: 38%;
+    top: 80%;
+    transform: translateX(-50%);
+}
+
+/* .three{
+    right: 39%;
+    top: 49.7%;
+    transform: translateY(-50%);
+} */
